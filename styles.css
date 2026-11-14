@@ -45,4 +45,18 @@ html[lang="zh-CN"] .about .section-heading h2,html[lang="zh-CN"] .experience .se
 .project-main .project-supervision{font-size:14px}
 @media(max-width:1000px){.project-row{grid-template-columns:90px minmax(0,1fr)}.project-stages{gap:15px}}
 @media(max-width:760px){.project-row{grid-template-columns:minmax(0,1fr)}.project-stages{grid-template-columns:minmax(0,1fr);gap:20px}.project-main h4{font-size:21px}.project-title{flex-wrap:wrap;gap:6px 20px}}
+
+/* Public project portfolio. */
+.portfolio-intro{font-size:16px;color:var(--muted);max-width:760px;margin-top:-12px;margin-bottom:32px}
+.portfolio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 44px}
+.code-project{display:flex;flex-direction:column;align-items:flex-start;min-width:0;border-top:2px solid #a8b595;padding:25px 0 12px}
+.code-project-kind{font-size:14px;line-height:1.6;letter-spacing:1px;color:#52694c}
+.code-project h3{font-size:25px;line-height:1.4;margin-top:16px;letter-spacing:-.4px}
+.code-project-description{font-size:16px;color:var(--ink);margin-top:15px;line-height:1.85}
+.code-project-features{font-size:15px;color:var(--muted);line-height:1.85;margin-top:12px}
+.code-project-tags{display:flex;flex-wrap:wrap;gap:7px;margin:22px 0 23px;padding:0;list-style:none}
+.code-project-tags li{font-size:14px;line-height:1.6;background:#e9eddf;border-radius:3px;padding:4px 9px;color:#496044}
+.code-project>.text-link{margin-top:auto;font-size:15px}
+@media(max-width:760px){.portfolio-grid{grid-template-columns:minmax(0,1fr);gap:26px}.portfolio .section-heading.horizontal{align-items:start;flex-direction:column;gap:18px}.portfolio-intro{margin-top:0}.code-project h3{font-size:24px}nav{gap:8px}}
+@media(max-width:500px){nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 12px}nav a{padding-block:3px}}
 @media print{.site-header,.hero-actions,.language-switch,.contact,footer,.skip-link{display:none}.page-width{width:100%}.hero{padding:15px 0;grid-template-columns:1fr 150px;gap:30px}.portrait-frame img{height:170px}.hero h1{font-size:40px}.hero-statement{font-size:20px}.section{padding:25px 0}.about,.experience{grid-template-columns:200px 1fr;gap:25px}.publication{break-inside:avoid}.publication-art{display:none}.publication-copy{grid-column:1/-1}.award{break-inside:avoid}body{font-size:16px;background:white;color:black}}
