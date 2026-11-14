@@ -72,4 +72,8 @@ nav a,.language-switch{font-size:16px}
 .art-top span:last-child{letter-spacing:.4px}
 .award-level{white-space:nowrap}
 @media(max-width:760px){.section-heading h2,html[lang="en"] .section-heading h2,html[lang="zh-CN"] .about .section-heading h2,html[lang="zh-CN"] .experience .section-heading h2,html[lang="en"] .contact h2,.contact h2{font-size:28px}.hero-description,.about-content>p{font-size:18px}.hero .eyebrow{font-size:16px;letter-spacing:.3px}.art-top{position:static;grid-column:1/-1}.globe{margin-top:0}.dataset-stats{margin-top:0}}
+
+.hobbies{margin-top:28px}.hobbies h3{font-size:20px;font-weight:500;line-height:1.5}.hobbies p{font-size:18px;color:var(--muted);margin-top:10px}
+.team-experience{margin-top:32px;padding-top:28px;border-top:1px solid var(--line)}.team-experience h3{font-size:23px;font-weight:500;line-height:1.5}.team-experience p{font-size:18px;margin-top:10px}
+.contact .contact-invitation{margin-top:32px;font-size:18px;color:var(--ink);line-height:1.85}
 @media print{.site-header,.hero-actions,.language-switch,.contact,footer,.skip-link{display:none}.page-width{width:100%}.hero{padding:15px 0;grid-template-columns:1fr 150px;gap:30px}.portrait-frame img{height:170px}.hero h1{font-size:40px}.section{padding:25px 0}.about,.experience{grid-template-columns:200px 1fr;gap:25px}.publication{break-inside:avoid}.publication-art{display:none}.publication-copy{grid-column:1/-1}.award{break-inside:avoid}body{font-size:18px;background:white;color:black}}
