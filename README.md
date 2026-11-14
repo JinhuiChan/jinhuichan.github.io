@@ -10,11 +10,11 @@ Static HTML, CSS and JavaScript. No build step or external runtime dependencies.
 python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8000/. Use `?lang=en` to open the English version directly. The language button remembers the reader's preference when browser storage is available.
+Open http://127.0.0.1:8000/. Each visit opens in English by default. The language button switches between English and Chinese; use `?lang=zh` to link directly to Chinese.
 
 ## Editing
 
-- `index.html`: Chinese content and English translations in `data-en` attributes.
+- `index.html`: English content with explicit `data-en` and `data-zh` translations.
 - `styles.css`: desktop, tablet, mobile and print layouts.
 - `script.js`: language selection and current copyright year.
 - `assets/portrait.jpg`: portrait.
