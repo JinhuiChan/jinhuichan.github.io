@@ -17,6 +17,7 @@ html[lang="zh-CN"] .about .section-heading h2,html[lang="zh-CN"] .experience .se
 @media(max-width:360px){.site-header{flex-wrap:wrap;height:auto;padding-block:16px;gap:12px}.language-switch{margin-left:auto}nav{order:3;justify-content:space-between;width:100%}nav a{font-size:14px}.hero h1{font-size:50px}.hero{padding-top:32px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
+.student-experience{margin-top:32px;padding-top:28px;border-top:1px solid var(--line)}.student-experience h3{font-size:23px;line-height:1.5;margin-top:11px}.student-experience p{font-size:16px;margin-top:10px;line-height:1.85}
 /* Readable text and consistent contact rows at every viewport size. */
 .hero-description,.about-content>p,.skill-row p,.award p{font-size:16px}
 .project-main .project-role,.contribution,.authors{font-size:15px}
