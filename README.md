@@ -27,3 +27,7 @@ GitHub Pages serves the root directory of `main`. Push changes to `main` to publ
 Only website assets belong in this repository. Do not upload identity documents, account recovery material or unredacted personal records.
 
 Paper metadata follows the published article: available online in October 2026; volume 243 (2027), pages 243–259.
+
+## Content and typography
+
+Use direct, factual section headings in both languages. Avoid promotional slogans and rhetorical introductions. Prefer 18px body text and 16–17px secondary text, with responsive layouts that retain readable sizes.
