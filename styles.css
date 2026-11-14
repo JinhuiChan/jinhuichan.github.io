@@ -78,4 +78,5 @@ nav a,.language-switch{font-size:16px}
 .contact .contact-invitation{margin-top:32px;font-size:18px;color:var(--ink);line-height:1.85}
 .wordmark img{display:block;width:58px;height:58px;object-fit:contain}
 @media(max-width:760px){.wordmark img{width:48px;height:48px}}
+.paper-number{font-size:16px;letter-spacing:1px;color:var(--muted);margin-bottom:18px}
 @media print{.site-header,.hero-actions,.language-switch,.contact,footer,.skip-link{display:none}.page-width{width:100%}.hero{padding:15px 0;grid-template-columns:1fr 150px;gap:30px}.portrait-frame img{height:170px}.hero h1{font-size:40px}.section{padding:25px 0}.about,.experience{grid-template-columns:200px 1fr;gap:25px}.publication{break-inside:avoid}.publication-art{display:none}.publication-copy{grid-column:1/-1}.award{break-inside:avoid}body{font-size:18px;background:white;color:black}}
