@@ -31,3 +31,7 @@ Paper metadata follows the published article: available online in October 2026; 
 ## Content and typography
 
 Use direct, factual section headings in both languages. Avoid promotional slogans and rhetorical introductions. Prefer 18px body text and 16–17px secondary text, with responsive layouts that retain readable sizes.
+
+## Emblem source
+
+`assets/whu-emblem.png` is the standard two-color university emblem from Wuhan University’s official identity page: https://www.whu.edu.cn/xxgk/wdbs.htm (official emblem download archive).
